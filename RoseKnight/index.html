@@ -1,16 +1,53 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rose Knight</title>
-    <!-- CSS File-->
-    <link href="css/game.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>Rose Knight - Visual Novel</title>
+    <link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
+    <div id="impress">
+        <div id="intro" class="step slide">
+            <div class="slide-text">
+                <img src="assets/images/RoseKnightLogo.png" style="width:500px;height:200px" align="left">
+                <img src="assets/images/GZFrameworksLogo.png" style="width:200px;height:140px" align="middle">
+                <br />
+                <br />
+                <br />
+                <br />
+                <p>A short tale about the Rose Knights</p>
+                <p>of the Everbloom Kingdom</p>
+                <br />
+                <p>Choices</p>
+                <p><a href="#cave1">1</a> or <a href="#cave2">2</a></p>
+            </div>
+        </div>
 
-    <!-- Java Scripts -->
-    <script src="scripts/impress.js"></script> 
-    <script src="scripts/game.js"></script>
+        <div id="cave1" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>Choice 1</p>
+            </div> 
+            <div class="menu">
+                <a href="#intro">Return</a>
+            </div> 
+        </div> 
+
+        <div id="cave2" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>Choice 2</p>
+            </div> 
+            <div class="menu">
+                <a href="#intro">Return</a>
+            </div> 
+        </div>
+
+    </div>
+
+    <!-- JavaScript Section -->
+    <script src="scripts/impress.js"></script>
+    <script>impress().init();</script>
+
 </body>
 </html>

@@ -65,9 +65,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\game.css" />
+    <Content Include="assets\images\GZFrameworksLogo.png" />
+    <Content Include="assets\images\Placeholder.png" />
+    <Content Include="assets\images\RoseKnightLogo.png" />
+    <Content Include="css\main.css" />
+    <Content Include="css\reset.css" />
     <Content Include="index.html" />
-    <Content Include="scripts\game.js" />
     <Content Include="scripts\impress.js" />
     <Content Include="Web.config" />
   </ItemGroup>
