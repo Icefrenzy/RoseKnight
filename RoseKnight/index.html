@@ -17,31 +17,104 @@
                 <br />
                 <br />
                 <br />
-                <p>A short tale about the Rose Knights</p>
-                <p>of the Everbloom Kingdom</p>
+                <p>The forgotten tale about the Rose Knights</p>
+                <p>of the Everbloom town during the invasion of the Lost Ones.</p>
                 <br />
-                <p>Choices</p>
-                <p><a href="#cave1">1</a> or <a href="#cave2">2</a></p>
+                <p>Pick a place to start</p>
+                <p><a href="#home">Home</a> or <a href="#forest">Forest</a></p>
             </div>
         </div>
 
-        <div id="cave1" class="step slide" data-x="1500">
+        <div id="home" class="step slide" data-x="1500">
             <div class="slide-text">
-                <p>Choice 1</p>
-            </div> 
-            <div class="menu">
-                <a href="#intro">Return</a>
+                <p id="location">Location: Home</p>
+                <p>I was currently on your home off duty from your work as a knight.</p>
+                <p>The town bell echoes nearby. Something must be up, I better.....</p>
+                <img src="assets/images/Home.jpg" style="width:550px;height:350px" align="middle">
+                <p><a href="#townside">Get my gear and head towards the watchtower.</a></p>
+                <br />
+                <p><a href="#spider">Pack up and leave the town through the forest.</a></p>
             </div> 
         </div> 
 
-        <div id="cave2" class="step slide" data-x="-1500">
+        <div id="spider" class="step slide" data-x="3500">
             <div class="slide-text">
-                <p>Choice 2</p>
-            </div> 
-            <div class="menu">
-                <a href="#intro">Return</a>
+                <p id="location">Location: Home</p>
+                <p>I packed up and noises start to come just outside your house.</p>
+                <p>Without a moments notice, a spider is in front of me. I....</p>
+                <img src="assets/images/Spider.jpg" style="width:550px;height:350px" align="middle">
+                <p><a href="#townside">Throw a nearby item at it</a></p>
+                <br />
+                <p><a href="#forest">Succumb to my fate which is death</a></p>
+            </div>
+        </div> 
+
+        <div id="townside" class="step slide" data-x="2500">
+            <div class="slide-text">
+                <p id="location">Location: Town Block B</p>
+                <p>I made my way towards the watchtower but I was stopped by a crowd of Lost Ones.</p>
+                <p>I prepare myself to...</p>
+                <img src="assets/images/Town.jpg" style="width:550px;height:350px" align="middle">
+                <p><a href="#deathfight1">Draw my sword and fight the Lost Ones</a> <a href="#forest">Smoke bomb my way out</a></p>
+            </div>
+        </div> 
+
+
+
+
+        <div id="forest" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p id="location">Location: Forest</p>
+                <p>As you casually walk through the forest, you find yourself hearing groans on the distance</p>
+                <p>It seems like the sounds are getting closer. I'm going to</p>
+                <img src="assets/images/Forest.jpg" style="width:550px;height:350px" align="middle">
+                <p><a href="#town">Retreat to the town</a><a href="#deathsounds">Approach the sounds</a></p>
             </div> 
         </div>
+
+        <div id="town" class="step slide" data-x="-2500">
+            <div class="slide-text">
+                <p id="location">Location: Town Block A</p>
+                <p>I ran back to the town with fear that strays monsters might have found their way on the town.</p>
+                <p>Unfortunately, you have stumbled to a even worst situation. The town is overran with the Lost Ones.</p>
+                <p>I should....</p>
+                <img src="assets/images/TownFight.jpg" style="width:550px;height:350px" align="middle">
+                <p><a href="#deathhelp">Help the villagers</a> <a href="#forest">Hide inside a house.</a></p>
+            </div>
+        </div> 
+
+        <div id="deathhelp" class="step slide" data-x="-50000">
+            <div class="slide-text">
+                <p id="location">You died!</p>
+                <p id ="location">You tried to help the villagers but realized you forgot your gear back on your home.</p>
+                <p id ="location">The Lost Ones easily outnumbered you and drained your life.</p>
+                <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
+                <br />
+                <p><a href="#intro">Try Again?</a>
+            </div>
+        </div> 
+
+        <div id="deathfight1" class="step slide" data-x="50000">
+            <div class="slide-text">
+                <p id="location">You died!</p>
+                <p id="location">Outnumbered, you fought the Lost Ones with all you had</p>
+                <p id="location">With all your efforts, you still couldn't fight them all and lost footing and died.</p>
+                <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
+                <br />
+                <p><a href="#intro">Try Again?</a>
+            </div>
+        </div> 
+
+        <div id="deathsounds" class="step slide" data-x="55000">
+            <div class="slide-text">
+                <p id="location">You died!</p>
+                <p id="location">You curiously approached the sound and saw a horde of Lost Ones. You panicked and tried to run.</p>
+                <p id="location">Unfortunately, after turning around, you were impaled by a Lost One.</p>
+                <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
+                <br />
+                <p><a href="#intro">Try Again?</a>
+            </div>
+        </div> 
 
     </div>
 

@@ -76,5 +76,12 @@ div.menu {
 /* Pharagraph Font */
 p{
     font-family: 'Alex Brush', cursive;
+    font-size: 28px;
+}
+/* Pharagraph Location Font */
+#location{
+    font-family: 'Alex Brush', cursive;
+    color:red;
+    font-weight: bold;
     font-size: 32px;
 }

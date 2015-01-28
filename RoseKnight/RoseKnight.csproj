@@ -65,6 +65,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\Spider.jpg" />
+    <Content Include="assets\images\Death.jpg" />
+    <Content Include="assets\images\TownFight.jpg" />
+    <Content Include="assets\images\Town.jpg" />
+    <Content Include="assets\images\Forest.jpg" />
+    <Content Include="assets\images\Home.jpg" />
     <Content Include="assets\images\GZFrameworksLogo.png" />
     <Content Include="assets\images\Placeholder.png" />
     <Content Include="assets\images\RoseKnightLogo.png" />
