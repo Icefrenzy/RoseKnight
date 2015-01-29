@@ -43,9 +43,9 @@
                 <p>I packed up and noises start to come just outside your house.</p>
                 <p>Without a moments notice, a spider is in front of me. I....</p>
                 <img src="assets/images/Spider.jpg" style="width:550px;height:350px" align="middle">
-                <p><a href="#townside">Throw a nearby item at it</a></p>
+                <p><a href="#deathitem">Throw a nearby item at it</a></p>
                 <br />
-                <p><a href="#forest">Succumb to my fate which is death</a></p>
+                <p><a href="#deathsuccumb">Succumb to my fate which is death</a></p>
             </div>
         </div> 
 
@@ -55,7 +55,47 @@
                 <p>I made my way towards the watchtower but I was stopped by a crowd of Lost Ones.</p>
                 <p>I prepare myself to...</p>
                 <img src="assets/images/Town.jpg" style="width:550px;height:350px" align="middle">
-                <p><a href="#deathfight1">Draw my sword and fight the Lost Ones</a> <a href="#forest">Smoke bomb my way out</a></p>
+                <p><a href="#deathfight1">Draw my sword and fight the Lost Ones</a> <a href="#smokebomb">Smoke bomb my way out</a></p>
+            </div>
+        </div> 
+
+        <div id="smokebomb" class="step slide" data-x="4000">
+            <div class="slide-text">
+                <p id="location">Location: Town Market</p>
+                <p>I threw a some bomb as son as the Lost Ones got close and ran as far as possible.</p>
+                <p>I find myself on the town market. A group of knights seem to require assistance.</p>
+                <img src="assets/images/Knights1.jpg" style="width:550px;height:350px" align="middle">
+                <p><a href="#spot">Assist the other Knights</a> <a href="#deathabandon">Abandon them and proceed to the barracks</a></p>
+            </div>
+        </div> 
+
+        <div id="spot" class="step slide" data-x="4000" data-y="1000">
+            <div class="slide-text">
+                <p id="location">Location: Town Walls</p>
+                <p>You fought with the knights and find yourselves on the town wall after hearing a loud mechanical engine.</p>
+                <p> One of the knights point at the engine and says "This must be the one making the Lost Ones aggitated."</p>
+                <img src="assets/images/Spot.jpg" style="width:550px;height:350px" align="middle">
+                <p><a href="#plan">Plan to take it down</a> <a href="#deathfire">Send your colleagues to destroy it.</a></p>
+            </div>
+        </div> 
+
+        <div id="plan" class="step slide" data-x="3000" data-y="1000">
+            <div class="slide-text">
+                <p id="location">Location: Town Walls</p>
+                <p>You decided to make a plan before doing anything.</p>
+                <p>What should you do?</p>
+                <img src="assets/images/Plan.jpg" style="width:550px;height:350px" align="middle">
+                <p><a href="#wait">Wait for an opportunity</a> <a href="#deathattack1">Simply attack it.</a></p>
+            </div>
+        </div> 
+
+        <div id="wait" class="step slide" data-x="3000" data-y="2000">
+            <div class="slide-text">
+                <p id="location">Location: Town Walls</p>
+                <p>You decided to wait it out. Not long after, the machine suddenly turned off its engines.</p>
+                <p>The other knights look at the machine and set ready. What do you do?</p>
+                <img src="assets/images/Wait.jpg" style="width:550px;height:350px" align="middle">
+                <p><a href="#plan">Signal the attack</a> <a href="#deathattack2">Fire arrows at it</a></p>
             </div>
         </div> 
 
@@ -79,7 +119,7 @@
                 <p>Unfortunately, you have stumbled to a even worst situation. The town is overran with the Lost Ones.</p>
                 <p>I should....</p>
                 <img src="assets/images/TownFight.jpg" style="width:550px;height:350px" align="middle">
-                <p><a href="#deathhelp">Help the villagers</a> <a href="#forest">Hide inside a house.</a></p>
+                <p><a href="#deathhelp">Help the villagers</a> <a href="#deathhide">Hide inside a house.</a></p>
             </div>
         </div> 
 
@@ -88,6 +128,28 @@
                 <p id="location">You died!</p>
                 <p id ="location">You tried to help the villagers but realized you forgot your gear back on your home.</p>
                 <p id ="location">The Lost Ones easily outnumbered you and drained your life.</p>
+                <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
+                <br />
+                <p><a href="#intro">Try Again?</a>
+            </div>
+        </div> 
+
+        <div id="deathsounds" class="step slide" data-x="-51000">
+            <div class="slide-text">
+                <p id="location">You died!</p>
+                <p id="location">You curiously approached the sound and saw a horde of Lost Ones. You panicked and tried to run.</p>
+                <p id="location">Unfortunately, after turning around, you were impaled by a Lost One.</p>
+                <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
+                <br />
+                <p><a href="#intro">Try Again?</a>
+            </div>
+        </div> 
+
+        <div id="deathhide" class="step slide" data-x="-52000">
+            <div class="slide-text">
+                <p id="location">You died!</p>
+                <p id="location">You hid on a empty house in hopes of sitting this one out. Hours passed and you felt safe.</p>
+                <p id="location">Unfortunately, it seems that the fire has unknowingly crept on your house and burnt you.</p>
                 <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
                 <br />
                 <p><a href="#intro">Try Again?</a>
@@ -105,16 +167,76 @@
             </div>
         </div> 
 
-        <div id="deathsounds" class="step slide" data-x="55000">
+        <div id="deathsuccumb" class="step slide" data-x="51000">
             <div class="slide-text">
                 <p id="location">You died!</p>
-                <p id="location">You curiously approached the sound and saw a horde of Lost Ones. You panicked and tried to run.</p>
-                <p id="location">Unfortunately, after turning around, you were impaled by a Lost One.</p>
+                <p id="location">Losing hope immidiately, you simply sat down and allowed the spider to get close.</p>
+                <p id="location">You remembered the important parts of your life and was shortly eaten.</p>
                 <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
                 <br />
                 <p><a href="#intro">Try Again?</a>
             </div>
         </div> 
+
+        <div id="deathitem" class="step slide" data-x="52000">
+            <div class="slide-text">
+                <p id="location">You died!</p>
+                <p id="location">Desperately, you tried to throw items to the spider but to no avail.</p>
+                <p id="location">The spider simply pranced around until it finally got close enough to eat you.</p>
+                <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
+                <br />
+                <p><a href="#intro">Try Again?</a>
+            </div>
+        </div> 
+
+        <div id="deathabandon" class="step slide" data-x="53000">
+            <div class="slide-text">
+                <p id="location">You died!</p>
+                <p id="location">You left your colleagues behind and have stumbled to a large machine.</p>
+                <p id="location">The machine simply rolled you over without a moments notice shortly after.</p>
+                <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
+                <br />
+                <p><a href="#intro">Try Again?</a>
+            </div>
+        </div> 
+
+        <div id="deathfire" class="step slide" data-x="54000">
+            <div class="slide-text">
+                <p id="location">You died!</p>
+                <p id="location">You sent your colleagues to the machine with barely no plan.</p>
+                <p id="location">They were easily ravaged by the flames of the machine which shortly also reached you.</p>
+                <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
+                <br />
+                <p><a href="#intro">Try Again?</a>
+            </div>
+        </div> 
+
+        <div id="deathattack1" class="step slide" data-x="55000">
+            <div class="slide-text">
+                <p id="location">You died!</p>
+                <p id="location">You attacked it recklessly and was immidiately soaked with fire.</p>
+                <p id="location">Unable to resist the fire, you collapse and was ran over by the machine.</p>
+                <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
+                <br />
+                <p><a href="#intro">Try Again?</a>
+            </div>
+        </div> 
+
+        <div id="deathattack2" class="step slide" data-x="56000">
+            <div class="slide-text">
+                <p id="location">You died!</p>
+                <p id="location">You decided to go safe and shoot arrows at it.</p>
+                <p id="location">The arrows did no damage and the machine turned on and roasted you all.</p>
+                <img src="assets/images/Death.jpg" style="width:550px;height:350px" align="middle">
+                <br />
+                <p><a href="#intro">Try Again?</a>
+            </div>
+        </div>
+
+
+       
+
+
 
     </div>
 

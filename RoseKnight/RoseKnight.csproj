@@ -65,6 +65,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\Wait.jpg" />
+    <Content Include="assets\images\Plan.jpg" />
+    <Content Include="assets\images\Spot.jpg" />
+    <Content Include="assets\images\Knights1.jpg" />
     <Content Include="assets\images\Spider.jpg" />
     <Content Include="assets\images\Death.jpg" />
     <Content Include="assets\images\TownFight.jpg" />
