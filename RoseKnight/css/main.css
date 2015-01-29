@@ -85,3 +85,11 @@ p{
     font-weight: bold;
     font-size: 32px;
 }
+/* Ending The End */
+#end{
+    font-family: 'Alex Brush', cursive;
+    color:red;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}

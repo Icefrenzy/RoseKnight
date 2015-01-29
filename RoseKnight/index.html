@@ -9,6 +9,8 @@
 </head>
 <body>
     <div id="impress">
+
+        <!-- The player will be given two choices to start here-->
         <div id="intro" class="step slide">
             <div class="slide-text">
                 <img src="assets/images/RoseKnightLogo.png" style="width:500px;height:200px" align="left">
@@ -25,6 +27,7 @@
             </div>
         </div>
 
+        <!-- This is where the branches for the home starting location starts-->
         <div id="home" class="step slide" data-x="1500">
             <div class="slide-text">
                 <p id="location">Location: Home</p>
@@ -95,13 +98,46 @@
                 <p>You decided to wait it out. Not long after, the machine suddenly turned off its engines.</p>
                 <p>The other knights look at the machine and set ready. What do you do?</p>
                 <img src="assets/images/Wait.jpg" style="width:550px;height:350px" align="middle">
-                <p><a href="#plan">Signal the attack</a> <a href="#deathattack2">Fire arrows at it</a></p>
+                <p><a href="#final">Signal the attack</a> <a href="#deathattack2">Fire arrows at it</a></p>
+            </div>
+        </div> 
+
+        <!-- Finales-->
+        <div id="final" class="step slide" data-x="3000" data-y="4000">
+            <div class="slide-text">
+                <p id="location">Location: Market</p>
+                <p>You and your colleaugues charged downwards the machine. The machine immidiately turned on</p>
+                <p>and attempted to retreat backwards. But you were able to enter the machine.</p>
+                <img src="assets/images/Final.jpg" style="width:550px;height:350px" align="middle">
+                <p><a href="#final2">Continue....</a></p>
+            </div>
+        </div>
+
+        <div id="final2" class="step slide" data-x="3000" data-y="6000">
+            <div class="slide-text">
+                <p id="location">Location: Market</p>
+                <p>Your colleagues waited outside as the machine was sealed after you went in.</p>
+                <p>Only but the machines engine was heard outside as they wait for you...</p>
+                <img src="assets/images/Final.jpg" style="width:550px;height:350px" align="middle">
+                <p><a href="#final3">Continue....</a></p>
+            </div>
+        </div>  
+
+        <div id="final3" class="step slide" data-x="3000" data-y="8000">
+            <div class="slide-text">
+                <p>Suddenly the hatch of the machine opens up and a figure rises with grace.</p>
+                <p>It was you! You made it out alive and saved the town from an invasion!</p>
+                <p>An invasion that will be passed on to generations in a form of a childrens story.</p>
+                <img src="assets/images/Final2.jpg" style="width:550px;height:350px" align="middle">
+                <p id="end" >The End</p>
+                <hr />
+                <p><a href="#intro">Play again?</a></p>
             </div>
         </div> 
 
 
 
-
+        <!-- This is where the branches for the forest starting location starts-->
         <div id="forest" class="step slide" data-x="-1500">
             <div class="slide-text">
                 <p id="location">Location: Forest</p>
@@ -123,6 +159,7 @@
             </div>
         </div> 
 
+        <!-- Death scenes which are bad endings-->
         <div id="deathhelp" class="step slide" data-x="-50000">
             <div class="slide-text">
                 <p id="location">You died!</p>
